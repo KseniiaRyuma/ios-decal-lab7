@@ -57,4 +57,9 @@
     };
 }
 
+- (IBAction)calculateCube:(id)sender{
+    [_Cbrain cube];
+    [self updatecalculationView];
+}
+
 @end

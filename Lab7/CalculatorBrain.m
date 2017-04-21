@@ -108,4 +108,9 @@
             return false;
     }
 }
+
+- (void)cube{
+    double input = [_calculationString doubleValue];
+    _calculationString = [NSString stringWithFormat:@"%.02f", pow(input, 3) ];
+}
 @end
